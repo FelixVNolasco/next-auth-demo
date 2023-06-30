@@ -8,7 +8,7 @@ const Page = async () => {
   if (!session) {
     redirect('/signin?callbackUrl=/profile')
   }
-
+ 
   return (
     <section className='py-24'>
       <div className='container'>
